@@ -2,9 +2,10 @@
   "name": "botkit-hackathon-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "src/bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "nodemon src/bot.js",
+    "bot": "node src/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -13,5 +14,8 @@
     "botkit": "^4.10.0",
     "botkit-plugin-cms": "^1.0.3",
     "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
