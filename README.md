@@ -52,6 +52,6 @@ To interact with the bot, just go to http://localhost:3000
 $ npm start
 ```
 
-Similar to the previous one, but with hot reload activated, which means that any saved modification to the source code will immediattly update the bot. It requires the `dev dependencies` to work.
+Similar to the previous one, but with hot reload activated, which means that any saved modification to the source code will immediately update the bot. It requires the `dev dependencies` to work.
 
 To interact with the bot, just go to http://localhost:3000
